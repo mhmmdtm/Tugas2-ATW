@@ -60,7 +60,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
 						    <ul class="nav" id="nav">
 						    	<li><a href="{{ url ("/shop") }}">Shop</a></li>
-								<li><a href="{{ url ("/contact") }}">Contact</a></li>								
+								<li><a href="{{ url ("/contact") }}">Contact</a></li>
+								<li class="current"><a href="{{ url ("/checkout") }}">Checkout</a></li>					
 								<div class="clear"></div>
 							</ul>
 							<script type="text/javascript" src="js/responsive-nav.js"></script>
@@ -93,9 +94,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						  </div>
 						   <div class="clear"></div>
 						  <li class="list_img"><img src="images/1.jpg" alt=""/></li>
-						  <li class="list_desc"><h4><a href="#">Nama Pengguna</a></li>
+						  <li class="list_desc"><h4><a href="#">Nama Pengguna</a><h4></li>
 						  <div class="login_buttons">
-							 <div class="check_button"><a href="{{ url ("/checkout") }}">Check out</a></div>
 							 <div class="login_button"><a href="{{ url ("/login") }}">Login</a></div>
 							 <div class="clear"></div>
 						  </div>

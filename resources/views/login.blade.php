@@ -112,14 +112,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 			<div class="col-md-6">
 				 <div class="login-page">
-					<h4 class="title">New Customers</h4>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
+					<h4 class="title">Hallo!!</h4>
+					<p>Selamat datang dan selamat bergabung di SnowboardShop. Di sini anda akan melihat berbagai pilihan papan seluncur yang anda inginkan. Kami ada untuk selalu mendukung hobi kesukaan anda. Selamat berseluncur dan stay save!</p>
 					 <div class="clear"></div>
 				  </div>
 				</div>
 				<div class="col-md-6">
 				 <div class="login-title">
-	           		<h4 class="title">Registered Customers</h4>
+	           		<h4 class="title">Registrasi</h4>
 					<div id="loginbox" class="loginbox">
 						<form action="" method="post" name="login" id="login-form">
 						  <fieldset class="input">
@@ -128,12 +128,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						      <input id="modlgn_username" type="text" name="email" class="inputbox" size="18" autocomplete="off">
 						    </p>
 						    <p id="login-form-password">
-						      <label for="modlgn_passwd">Password</label>
+						      <label for="modlgn_passwd">Kata Sandi</label>
 						      <input id="modlgn_passwd" type="password" name="password" class="inputbox" size="18" autocomplete="off">
 						    </p>
 						    <div class="remember">
 							    <p id="login-form-remember">
-							      <label for="modlgn_remember"><a href="#">Forget Your Password ? </a></label>
+							      <label for="modlgn_remember"><a href="#">Lupa Sandi? </a></label>
 							   </p>
 							    <input type="submit" name="Submit" class="button" value="Login"><div class="clear"></div>
 							 </div>
@@ -197,7 +197,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="row footer_bottom">
 				    <div class="copy">
-			           <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
+			           <p>© 2014 Muhammad Tami | Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
 		            </div>
 					  <dl id="sample" class="dropdown">
 				        <dt><a href="#"><span>Change Region</span></a></dt>

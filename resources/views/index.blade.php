@@ -126,7 +126,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="slide_content">
                     <div class="slide_content_wrap">
                         <!-- Text title -->
-                        <h1 class="title">Run Over<br>Everything</h1>
+                        <h1 class="title">Meluncur Tak Terbatas<br>Dan Melampauinya</h1>
                         <!-- /Text title -->
                     </div>
                 </div>
@@ -137,7 +137,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                <img src="images/slider2.jpg" class="img-responsive" alt=""/>
                 <div class="slide_content">
                     <div class="slide_content_wrap">
-                        <h1 class="title">Run Over<br>Everything</h1>
+                        <h1 class="title">Meluncur Tak Terbatas<br>Dan Melampauinya</h1>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	  <div class="main">
 		<div class="content-top">
 			<h2>snowboards</h2>
-			<p>hendrerit in vulputate velit esse molestie consequat, vel illum dolore</p>
+			<p>which one is your favorite</p>
 			<div class="close_but"><i class="close1"> </i></div>
 				<ul id="flexiselDemo3">
 				<li><img src="images/board1.jpg" /></li>
@@ -197,73 +197,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="row content_bottom-text">
 			  <div class="col-md-7">
 				<h3>The Mountains<br>Snowboarding</h3>
-				<p class="m_1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.</p>
-				<p class="m_2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.</p>
+				<p class="m_1">Seluncur papan salju adalah sebuah kegiatan rekreasional dan olahraga Olimpiade Musim Dingin dan Paralimpiade dimana seseorang menuruni tempat miring yang diselimuti salju sampil berdiri di atas papan salju. Pengembangan seluncur papan salju terinspirasi oleh seluncur papan, seluncur kereta salju, selancar dan ski.</p>
 			  </div>
 			</div>
 		</div>
 	</div>
-	<div class="features">
-		<div class="container">
-			<h3 class="m_3">Features</h3>
-			<div class="close_but"><i class="close1"> </i></div>
-			  <div class="row">
-				<div class="col-md-3 top_box">
-				  <div class="view view-ninth"><a href="single.html">
-                    <img src="images/pic1.jpg" class="img-responsive" alt=""/>
-                    <div class="mask mask-1"> </div>
-                    <div class="mask mask-2"> </div>
-                      <div class="content">
-                        <h2>Hover Style #9</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-                      </div>
-                   </a> </div
-                  </div>
-                  <h4 class="m_4"><a href="#">nostrud exerci ullamcorper</a></h4>
-                  <p class="m_5">claritatem insitam</p>
-                </div>
-                <div class="col-md-3 top_box">
-					<div class="view view-ninth"><a href="single.html">
-                    <img src="images/pic2.jpg" class="img-responsive" alt=""/>
-                    <div class="mask mask-1"> </div>
-                    <div class="mask mask-2"> </div>
-                      <div class="content">
-                        <h2>Hover Style #9</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-                      </div>
-                    </a> </div>
-                   <h4 class="m_4"><a href="#">nostrud exerci ullamcorper</a></h4>
-                   <p class="m_5">claritatem insitam</p>
-				</div>
-				<div class="col-md-3 top_box">
-					<div class="view view-ninth"><a href="single.html">
-                    <img src="images/pic3.jpg" class="img-responsive" alt=""/>
-                    <div class="mask mask-1"> </div>
-                    <div class="mask mask-2"> </div>
-                      <div class="content">
-                        <h2>Hover Style #9</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-                      </div>
-                    </a> </div>
-                   <h4 class="m_4"><a href="#">nostrud exerci ullamcorper</a></h4>
-                   <p class="m_5">claritatem insitam</p>
-				</div>
-				<div class="col-md-3 top_box1">
-					<div class="view view-ninth"><a href="single.html">
-                    <img src="images/pic4.jpg" class="img-responsive" alt=""/>
-                    <div class="mask mask-1"> </div>
-                    <div class="mask mask-2"> </div>
-                      <div class="content">
-                        <h2>Hover Style #9</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-                      </div>
-                     </a> </div>
-                   <h4 class="m_4"><a href="#">nostrud exerci ullamcorper</a></h4>
-                   <p class="m_5">claritatem insitam</p>
-				</div>
-			</div>
-		 </div>
-	    </div>
 		<div class="footer">
 			<div class="container">
 				<div class="row">
@@ -280,7 +218,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<h4>About</h4>
 							<li><a href="#">Careers and internships</a></li>
 							<li><a href="#">Sponserships</a></li>
-							<li><a href="#">team</a></li>
+							<li><a href="#">Team</a></li>
 							<li><a href="#">Catalog Request/Download</a></li>
 						</ul>
 					</div>
@@ -316,7 +254,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="row footer_bottom">
 				    <div class="copy">
-			           <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
+			           <p>© 2014 Muhammad Tami | Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
 		            </div>
 					  <dl id="sample" class="dropdown">
 				        <dt><a href="#"><span>Change Region</span></a></dt>

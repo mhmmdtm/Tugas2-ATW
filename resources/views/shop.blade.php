@@ -278,7 +278,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<h4>About</h4>
 							<li><a href="#">Careers and internships</a></li>
 							<li><a href="#">Sponserships</a></li>
-							<li><a href="#">team</a></li>
+							<li><a href="#">Team</a></li>
 							<li><a href="#">Catalog Request/Download</a></li>
 						</ul>
 					</div>
@@ -314,7 +314,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="row footer_bottom">
 				    <div class="copy">
-			           <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
+			           <p>© 2014 Muhammad Tami | Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
 		            </div>
 					  <dl id="sample" class="dropdown">
 				        <dt><a href="#"><span>Change Region</span></a></dt>

@@ -59,9 +59,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					 <div class="menu">
 						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
 						    <ul class="nav" id="nav">
-						    	<li><a href="{{ url ("/shop") }}">Shop</a></li>
-								<li><a href="{{ url ("/contact") }}">Contact</a></li>
-								<li><a href="{{ url ("/checkout") }}">Checkout</a></li>							
+						    	<li><a href="{{ url ("/shop") }}">Shop</a></li>							
 								<div class="clear"></div>
 							</ul>
 							<script type="text/javascript" src="js/responsive-nav.js"></script>
@@ -116,9 +114,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				 <div class="login-page">
 					<h4 class="title">New Customers</h4>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
-					<div class="button1">
-					   <a href="register.html"><input type="submit" name="Submit" value="Create an Account"></a>
-					 </div>
 					 <div class="clear"></div>
 				  </div>
 				</div>

@@ -65,9 +65,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					 <div class="menu">
 						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
 						    <ul class="nav" id="nav">
-						    	<li><a href="{{ url ("/shop") }}">Shop</a></li>
-						 		<li><a href="{{ url ("/contact") }}">Contact</a></li>
-						 		<li><a href="{{ url ("/checkout") }}">Checkout</a></li>								
+						    	<li><a href="{{ url ("/shop") }}">Shop</a></li>							
 								<div class="clear"></div>
 							</ul>
 							<script type="text/javascript" src="js/responsive-nav.js"></script>

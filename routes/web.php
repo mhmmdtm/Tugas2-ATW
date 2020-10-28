@@ -25,18 +25,34 @@ Route::get('/shop', function () {
     return view("shop");
 });
 
-Route::get('/contact', function () {
-    return view("contact");
+Route::get('/cart', function () {
+    return view("cart");
 });
 
 Route::get('/login', function () {
     return view("login");
 });
 
-Route::get('/checkout', function () {
-    return view("checkout");
-});
-
 Route::get('/register', function () {
     return view("register");
+});
+
+Route::get('/base', function () {
+    return view("template.base");
+});
+
+Route::get('/homeadmin', function () {
+    return view("template.homeadmin");
+});
+
+Route::get('/produk', function () {
+    return view("template.produk");
+});
+
+Route::get('/pengguna', function () {
+    return view("template.pengguna");
+});
+
+Route::get('/loginadmin', function () {
+    return view("template.loginadmin");
 });

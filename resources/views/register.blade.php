@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>SnowboardShop | Login</title>
+<title>SnowboardShop | Register</title>
 <link href="snowboard/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="snowboard/css/style.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -50,49 +50,42 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
      <div class="main">
       <div class="shop_top">
-		<div class="container">
-			<div class="col-md-6">
-				 <div class="login-page">
-					<h4 class="title">Hallo!!</h4>
-					<p>Selamat datang dan selamat bergabung di SnowboardShop. Di sini anda akan melihat berbagai pilihan papan seluncur yang anda inginkan. Kami ada untuk selalu mendukung hobi kesukaan anda. Selamat berseluncur dan stay save!</p>
-					 <div class="clear"></div>
-				  </div>
-				</div>
-				<div class="col-md-6">
-				 <div class="login-title">
-	           		<h4 class="title">SnowboardShop</h4>
-					<div id="loginbox" class="loginbox">
-						<form action="" method="post" name="login" id="login-form">
-						  <fieldset class="input">
-						    <p id="login-form-username">
-						      <label for="modlgn_username">Email</label>
-						      <input id="modlgn_username" type="text" name="email" class="inputbox" size="18" autocomplete="off">
-						    </p>
-						    <p id="login-form-password">
-						      <label for="modlgn_passwd">Kata Sandi</label>
-						      <input id="modlgn_passwd" type="password" name="password" class="inputbox" size="18" autocomplete="off">
-						    </p>
-						    <div class="remember">
-							    <p id="login-form-remember">
-							      <label for="modlgn_remember"><a href="#">Lupa Sandi? </a></label>
-							   </p>
-							    <div class="button"><a href="{{ url ("/index") }}">Login</a></div>
-							    <div class="registration">
-								Anda belum punya akun?
-								<a class="" href="register">
-									Buat Akun
-								</a>
-							</div>
-							 </div>
-						  </fieldset>
-						 </form>
+	     <div class="container">
+						<form> 
+								<div class="register-top-grid">
+										<h3>Identitas</h3>
+										<div>
+											<span>Nama Depan<label>*</label></span>
+											<input type="text"> 
+										</div>
+										<div>
+											<span>Nama Belakang<label>*</label></span>
+											<input type="text"> 
+										</div>
+										<div>
+											<span>Email<label>*</label></span>
+											<input type="text"> 
+										</div>
+								</div>
+								<div class="clear"> </div>
+								<div class="register-bottom-grid">
+										<h3>Informasi Login</h3>
+										<div>
+											<span>Password<label>*</label></span>
+											<input type="text">
+										</div>
+										<div>
+											<span>Konfirmasi password<label>*</label></span>
+											<input type="text">
+										</div>
+										<div class="clear"> </div>
+								</div>
+								<div class="clear"> </div>
+								<div class="button"><a href="{{ url ("/login") }}">Daftar</a></div>
+						</form>
 					</div>
-			      </div>
-				 <div class="clear"></div>
-			  </div>
-			</div>
-		  </div>
+		   </div>
 	  </div>
-	 @include('footeruser')
+	  @include('footeruser')
 </body>	
 </html>

@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\authcontroller;
+use App\Http\Controllers\homecontroller;
+use App\Http\Controllers\produkcontroller;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,12 +19,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index', function () {
-    return view("index");
+Route::get('/beranda', function () {
+    return view("beranda");
 });
 
-Route::get('/shop', function () {
-    return view("shop");
+Route::get('/product', function () {
+    return view("product");
 });
 
 Route::get('/cart', function () {
@@ -37,22 +39,11 @@ Route::get('/register', function () {
     return view("register");
 });
 
-Route::get('/base', function () {
-    return view("template.base");
-});
-
-Route::get('/homeadmin', function () {
-    return view("template.homeadmin");
-});
-
-Route::get('/produk', function () {
-    return view("template.produk");
-});
-
-Route::get('/pengguna', function () {
-    return view("template.pengguna");
-});
-
-Route::get('/loginadmin', function () {
-    return view("template.loginadmin");
-});
+Route::get('homeadmin', [homecontroller::class, 'showHome']);
+Route::get('produk', [produkcontroller::class, 'index']);
+Route::get('produk/create', [produkcontroller::class, 'create']);
+Route::post('produk', [produkcontroller::class, 'store']);
+Route::get('produk/{produk}', [produkcontroller::class, 'show']);
+Route::put('produk/{produk}', [produkcontroller::class, 'update']);
+Route::delete('produk/{produk}', [produkcontroller::class, 'destroy']);
+Route::get('loginadmin', [authcontroller::class, 'showLogin']);

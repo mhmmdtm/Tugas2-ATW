@@ -22,11 +22,6 @@
                 <i class="fa fa-archive"></i> <span>Produk</span>
                 </a>
               </li>
-              <li class="treeview">
-                <a href="pengguna">
-                <i class="fa fa-user"></i> <span>Pengguna</span>
-                </a>
-              </li>
             </ul>
           </div>
           <!-- /.navbar-collapse -->

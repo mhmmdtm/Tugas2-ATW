@@ -4,12 +4,12 @@
 			  <div class="col-md-12">
 				 <div class="header-left">
 					 <div class="logo">
-						<a href="{{ url ("/index") }}"><img src="snowboard/images/logo.png" alt=""/></a>
+						<a href="{{ url ("/beranda") }}"><img src="snowboard/images/logo.png" alt=""/></a>
 					 </div>
 					 <div class="menu">
 						  <a class="toggleMenu" href="#"><img src="snowboard/images/nav.png" alt="" /></a>
 						    <ul class="nav" id="nav">
-						    	<li><a href="{{ url ("/shop") }}">Produk</a></li>
+						    	<li><a href="{{ url ("/product") }}">Produk</a></li>
 						    	<li><a href="{{ url ("/cart") }}">Keranjang</a></li>							
 								<div class="clear"></div>
 							</ul>

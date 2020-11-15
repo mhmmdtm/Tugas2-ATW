@@ -148,7 +148,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<span class="sale-label">Dijual!</span>
 					</span>
 					<div class="shop_desc">
-						<h3><a href="#">Salomon Suer 8</a></h3>
+						<h3><a href="#">Salomon Super 8</a></h3>
 						<p>Tidak ada deskripsi</p>
 						<span class="actual">Rp3.799.999</span><br>
 						<ul class="buttons">

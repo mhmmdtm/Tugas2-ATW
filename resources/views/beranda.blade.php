@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>SnowboardShop | Home</title>
+<title>SnowboardShop | Beranda</title>
 <link href="snowboard/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="snowboard/css/style.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

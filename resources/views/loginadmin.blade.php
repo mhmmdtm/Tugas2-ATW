@@ -50,9 +50,10 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				<h2 class="title1">SnowboardShop</h2>
 				<div class="widget-shadow">
 					<div class="login-body">
-						<form action="#" method="post">
-							<input type="email" class="user" name="email" placeholder="Enter Your Email" required="">
-							<input type="password" name="password" class="lock" placeholder="Password" required="">
+						<form action="{{url('loginadmin')}}" method="post">
+							@csrf
+							<input type="email" class="user"  placeholder="Enter Your Email" name="email">
+							<input type="password" class="lock" placeholder="Password" name="password">
 							<div class="forgot-grid">
 								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Ingat saya</label>
 								<div class="forgot">
@@ -60,8 +61,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 								</div>
 								<div class="clearfix"> </div>
 							</div>
-							<a href="homeadmin"><button type="button">Login</button>
-								</a>
+							<a href="{{url('homeadmin')}}" class="btn btn-dark center"></i>Login</a>
 							<div class="registration">
 								Anda belum punya akun?
 								<a class="" href="#">

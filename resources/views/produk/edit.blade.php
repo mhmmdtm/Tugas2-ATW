@@ -36,15 +36,12 @@
 									<input type="text" class="form-control" name="ukuran" value="{{$produk->ukuran}}">
 								</div>
 							</div>
-							<div class="col-md-3">
-								
-							</div>
 						</div>
 						<div class="form-group">
 							<label for="" class="control-label">Deskripsi</label>
 							<textarea name="deskripsi" class="form-control">value="{{$produk->deskripsi}}"</textarea>
 						</div>
-						<button class="btn btn-dark"><i class="fa fa-save"></i>Simpan</button>
+						<button class="btn btn-dark"><i class="fa fa-save"></i> &nbsp Simpan</button>
 						</form>
 					</div>
 				</div>

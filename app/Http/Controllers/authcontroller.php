@@ -8,7 +8,7 @@ class authcontroller extends Controller{
 		return view("loginadmin");
 	}
 	function processLogin() {
-
+		dd(request()->all());
 	}
 	function logout() {
 

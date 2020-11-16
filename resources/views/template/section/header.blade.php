@@ -4,73 +4,7 @@
 				<!--toggle button start-->
 				<button id="showLeftPush"><i class="fa fa-bars"></i></button>
 				<!--toggle button end-->
-				<div class="profile_details_left"><!--notifications of menu start -->
-					<ul class="nofitications-dropdown">
-						<li class="dropdown head-dpdn">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-envelope"></i><span class="badge">2</span></a>
-							<ul class="dropdown-menu">
-								<li>
-									<div class="notification_header">
-										<h3>Anda memiliki 3 pesan baru</h3>
-									</div>
-								</li>
-								<li><a href="#">
-								   <div class="user_img"><img src="images/1.jpg" alt=""></div>
-								   <div class="notification_desc">
-									<p>stwjlr mengirimi Anda pesan</p>
-									<p><span>1 jam yang lalu</span></p>
-									</div>
-								   <div class="clearfix"></div>	
-								</a></li>
-								<li class="odd"><a href="#">
-									<div class="user_img"><img src="images/4.jpg" alt=""></div>
-								   <div class="notification_desc">
-									<p>brellsn mengirimi Anda pesan</p>
-									<p><span>1 jam yang lalu</span></p>
-									</div>
-								  <div class="clearfix"></div>	
-								</a></li>
-								<li>
-									<div class="notification_bottom">
-										<a href="#">Lihat semua pesan</a>
-									</div> 
-								</li>
-							</ul>
-						</li>
-						<li class="dropdown head-dpdn">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-bell"></i><span class="badge blue">2</span></a>
-							<ul class="dropdown-menu">
-								<li>
-									<div class="notification_header">
-										<h3>Anda memiliki 2 notifikasi baru</h3>
-									</div>
-								</li>
-								<li><a href="#">
-									<div class="user_img"><img src="images/4.jpg" alt=""></div>
-								   <div class="notification_desc">
-									<p>stwjlr baru saja bergabung</p>
-									<p><span>1 jam yang lalu</span></p>
-									</div>
-								  <div class="clearfix"></div>	
-								 </a></li>
-								 <li class="odd"><a href="#">
-									<div class="user_img"><img src="images/1.jpg" alt=""></div>
-								   <div class="notification_desc">
-									<p>brellsn baru saja bergabung</p>
-									<p><span>1 jam yang lalu</span></p>
-									</div>
-								   <div class="clearfix"></div>	
-								 </a></li>
-									<div class="notification_bottom">
-										<a href="#">Lihat semua notifikasi</a>
-									</div> 
-								</li>
-							</ul>
-						</li>	
-					</ul>
-					<div class="clearfix"> </div>
-				</div>
-				<!--notification menu end -->
+				
 				<div class="clearfix"> </div>
 			</div>
 			<div class="header-right">
@@ -93,7 +27,7 @@
 						<li class="dropdown profile_details_drop">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 								<div class="profile_img">	
-									<span class="prfil-img"><img src="images/2.jpg" alt=""> </span> 
+									<span class="prfil-img"><img src="{{url('assets/images/2.jpg')}}" alt=""> </span> 
 									<div class="user-name">
 										<p>MoonArcher</p>
 										<span>Admin</span>

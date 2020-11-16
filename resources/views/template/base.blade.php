@@ -15,31 +15,31 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 <!-- Bootstrap Core CSS -->
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="{{url('assets/css/bootstrap.css')}}" rel='stylesheet' type='text/css' />
 
 <!-- Custom CSS -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="{{url('assets/css/style.css')}}" rel='stylesheet' type='text/css' />
 
 <!-- font-awesome icons CSS -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="{{url('assets/css/font-awesome.css')}}" rel="stylesheet"> 
 <!-- //font-awesome icons CSS -->
 
  <!-- side nav css file -->
- <link href='css/SidebarNav.min.css' media='all' rel='stylesheet' type='text/css'/>
+ <link href="{{url('assets/css/SidebarNav.min.css')}}" media='all' rel='stylesheet' type='text/css'/>
  <!-- side nav css file -->
  
  <!-- js-->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
+<script src="{{url('assets/js/jquery-1.11.1.min.js')}}"></script>
+<script src="{{url('assets/js/modernizr.custom.js')}}"></script>
 
 <!--webfonts-->
 <link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 <!--//webfonts--> 
 
 <!-- Metis Menu -->
-<script src="js/metisMenu.min.js"></script>
-<script src="js/custom.js"></script>
-<link href="css/custom.css" rel="stylesheet">
+<script src="{{url('assets/js/metisMenu.min.js')}}"></script>
+<script src="{{url('assets/js/custom.js')}}"></script>
+<link href="{{url('assets/css/custom.css')}}" rel="stylesheet">
 <!--//Metis Menu -->
 
 </head> 
@@ -47,37 +47,42 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	<div class="main-content">
 	<div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
 		<!--left-fixed -navigation-->
-		@include('template.section.sidebar')
+		   @include('template.section.sidebar')
+    </div>
+	</div>
 		<!--left-fixed -navigation-->
 		
 		<!-- header-starts -->
 		@include('template.section.header')
 		<!-- //header-ends -->
 		<!-- main content start-->
-		<div class="content-wrapper">
+		<div id="page-wrapper">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						@include('template.utils.notif')
-					</div>
-				</div>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				@include('template.utils.notif')
+			</div>
+		</div>
+	    </div>
 			</div>
 			@yield('content')
 		</div>
-		<!--footer-->
+
+	    <!--footer-->
 		@include('template.section.footer')
         <!--//footer-->
 	</div>
 	
 	<!-- side nav js -->
-	<script src='js/SidebarNav.min.js' type='text/javascript'></script>
+	<script src="{{url('assets/js/SidebarNav.min.js')}}" type='text/javascript'></script>
 	<script>
       $('.sidebar-menu').SidebarNav()
     </script>
 	<!-- //side nav js -->
 	
 	<!-- Classie --><!-- for toggle left push menu script -->
-		<script src="js/classie.js"></script>
+		<script src="{{url('assets/js/classie.js')}}"></script>
 		<script>
 			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
 				showLeftPush = document.getElementById( 'showLeftPush' ),
@@ -99,12 +104,12 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	<!-- //Classie --><!-- //for toggle left push menu script -->
 	
 	<!--scrolling js-->
-	<script src="js/jquery.nicescroll.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="{{url('assets/js/jquery.nicescroll.js')}}"></script>
+	<script src="{{url('assets/js/scripts.js')}}"></script>
 	<!--//scrolling js-->
 	
 	<!-- Bootstrap Core JavaScript -->
-   <script src="js/bootstrap.js"> </script>
+   <script src="{{url('assets/js/bootstrap.js')}}"> </script>
    
 </body>
 </html>

@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>SnowboardShop | Produk</title>
+<title>SnowboardShop</title>
 <link href="snowboard/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="snowboard/css/style.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -63,11 +63,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</span>
 					<div class="shop_desc">
 						<h3><a href="#">K2 Lil Kat</a></h3>
-						<p>Tidak ada deskripsi</p>
-						<span class="reducedfrom">Rp2.300.000</span>
 						<span class="actual">Rp1.999.999</span><br>
 						<ul class="buttons">
-							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="cart"><a href="#">Tambahkan ke keranjang</a></li>
 							<div class="clear"> </div>
 					    </ul>
 				    </div>
@@ -79,7 +77,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</span>
 					<div class="shop_desc">
 						<h3><a href="#">K2 Mini Turbo</a></h3>
-						<p>Tidak ada deskripsi</p>
 						<span class="actual">Rp2.300.000</span><br>
 						<ul class="buttons">
 							<li class="cart"><a href="#">Tambahkan ke keranjang</a></li>
@@ -97,9 +94,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</span>
 					<div class="shop_desc">
 						<h3><a href="#">Nidecker Micron</a></h3>
-						<p>Tidak ada deskripsi</p>
-						<span class="reducedfrom">Rp1.700.000</span>
-						<span class="actual">$12.00</span><br>
+						<span class="actual">Rp1.250.000</span><br>
 						<ul class="buttons">
 							<li class="cart"><a href="#">Tambahkan ke keranjang</a></li>
 							<div class="clear"> </div>
@@ -113,8 +108,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</span>
 					<div class="shop_desc">
 						<h3><a href="#">Salomon Pulse</a></h3>
-						<p>Tidak ada deskripsi</p>
-						<span class="reducedfrom">Rp3.299.999</span>
 						<span class="actual">Rp2.499.999</span><br>
 						<ul class="buttons">
 							<li class="cart"><a href="#">Tambahkan ke keranjang</a></li>
@@ -131,7 +124,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</span>
 					<div class="shop_desc">
 						<h3><a href="#">Salomon Craft</a></h3>
-						<p>Tidak ada deskripsi</p>
 						<span class="actual">Rp3.499.999</span><br>
 						<ul class="buttons">
 							<li class="cart"><a href="#">Tambahkan ke keranjang</a></li>
@@ -149,7 +141,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</span>
 					<div class="shop_desc">
 						<h3><a href="#">Salomon Super 8</a></h3>
-						<p>Tidak ada deskripsi</p>
 						<span class="actual">Rp3.799.999</span><br>
 						<ul class="buttons">
 							<li class="cart"><a href="#">Tambahkan ke keranjang</a></li>
@@ -164,8 +155,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</span>
 					<div class="shop_desc">
 						<h3><a href="#">Nitro Dropout</a></h3>
-						<p>Tidak ada deskripsi</p>
-						<span class="reducedfrom">Rp6.699.999</span>
 						<span class="actual">Rp5.499.999</span><br>
 						<ul class="buttons">
 							<li class="cart"><a href="#">Tambahkan ke keranjang</a></li>
@@ -183,8 +172,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</span>
 					<div class="shop_desc">
 						<h3><a href="#">Salomon X3</a></h3>
-						<p>Tidak ada deskripsi</p>
-						<span class="reducedfrom">Rp2.999.999</span>
 						<span class="actual">Rp1.200.000</span><br>
 						<ul class="buttons">
 							<li class="cart"><a href="#">Tambahkan ke keranjang</a></li>

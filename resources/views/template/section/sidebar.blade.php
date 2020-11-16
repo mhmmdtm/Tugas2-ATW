@@ -18,8 +18,13 @@
                 </a>
               </li>
               <li class="treeview">
-                <a href="produk">
+                <a href="{{url('produk')}}">
                 <i class="fa fa-archive"></i> <span>Produk</span>
+                </a>
+              </li>
+               <li class="treeview">
+                <a href="{url('user')}}">
+                <i class="fa fa-user"></i> <span>User</span>
                 </a>
               </li>
             </ul>

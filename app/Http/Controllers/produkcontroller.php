@@ -15,10 +15,10 @@ class produkcontroller extends Controller {
 	function store() {
 		$produk = new Produk;
 		$produk->nama = request('nama');
-		$produk->nama = request('harga');
-		$produk->nama = request('stok');
-		$produk->nama = request('ukuran');
-		$produk->nama = request('deskripsi');
+		$produk->harga = request('harga');
+		$produk->stok = request('stok');
+		$produk->ukuran = request('ukuran');
+		$produk->deskripsi = request('deskripsi');
 		$produk->save();
 		return redirect('produk')->with('success', 'Data berhasil ditambahkan');
 	}
@@ -33,10 +33,10 @@ class produkcontroller extends Controller {
 	}
 	function update(Produk $produk) {
 		$produk->nama = request('nama');
-		$produk->nama = request('harga');
-		$produk->nama = request('stok');
-		$produk->nama = request('ukuran');
-		$produk->nama = request('deskripsi');
+		$produk->harga = request('harga');
+		$produk->stok = request('stok');
+		$produk->ukuran = request('ukuran');
+		$produk->deskripsi = request('deskripsi');
 		$produk->save();
 		return redirect('produk')->with('success', 'Data berhasil diedit');
 	}

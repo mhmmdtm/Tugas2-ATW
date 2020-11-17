@@ -54,9 +54,10 @@ Route::get('user', [usercontroller::class, 'index']);
 Route::get('user/create', [usercontroller::class, 'create']);
 Route::post('user', [usercontroller::class, 'store']);
 Route::get('user/{user}', [usercontroller::class, 'show']);
-Route::get('produk/{produk}/edit', [produkcontroller::class, 'edit']);
+Route::get('user/{user}/edit', [usercontroller::class, 'edit']);
 Route::put('user/{user}', [usercontroller::class, 'update']);
 Route::delete('user/{user}', [usercontroller::class, 'destroy']);
 
 Route::get('loginadmin', [authcontroller::class, 'showLogin']);
 Route::post('loginadmin', [authcontroller::class, 'processLogin']);
+Route::get('logout', [authcontroller::class, 'logout']);

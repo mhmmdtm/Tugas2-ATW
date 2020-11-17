@@ -4,15 +4,15 @@
 
 <div class="container">
 		<div class="row">
-			<div class="col-md-12 mt-5">
+			<div class="col-md-10 mt-5">
 				<div class="card">
 					<div class="card-header">
-						Edit Data User
+						<h3>Ubah Data User</h3><br>
 					</div>
 					<div class="card-body">
 						<form action="{{url('user', $user->id)}}"  method="post">
 						@csrf
-						@method("PUT")
+						@method("put")
 						<div class="form-group">
 							<label for="" class="control-label">Nama</label>
 							<input type="text" class="form-control" name="nama" value="{{$user->nama}}">
@@ -24,20 +24,20 @@
 									<input type="text" class="form-control" name="username" value="{{$user->username}}">
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-2">
 								<div class="form-group">
 									<label for="" class="control-label">Email</label>
-									<input type="email" class="form-control" name="email" value="{{$user->email}}">
+									<input type="text" class="form-control" name="email" value="{{$user->email}}">
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-2">
 								<div class="form-group">
 									<label for="" class="control-label">Password</label>
-									<input type="password" class="form-control" name="password">
+									<input type="text" class="form-control" name="password">
 								</div>
 							</div>
 						</div>
-						<button class="btn btn-dark"><i class="fa fa-save"></i>Simpan</button>
+						<button class="btn btn-dark"><i class="fa fa-save"></i> &nbsp Simpan</button>
 						</form>
 					</div>
 				</div>

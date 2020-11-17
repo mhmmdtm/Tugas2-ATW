@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>SnowboardShop | Login</title>
+<title>SnowboardShop</title>
 <link href="snowboard/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="snowboard/css/style.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -76,7 +76,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							    <p id="login-form-remember">
 							      <label for="modlgn_remember"><a href="#">Lupa Sandi? </a></label>
 							   </p>
-							    <div class="button"><a href="{{ url ("/index") }}">Login</a></div>
+							    <div class="button"><a href="{{ url ('beranda') }}">Login</a></div>
 							    <div class="registration">
 								Anda belum punya akun?
 								<a class="" href="register">

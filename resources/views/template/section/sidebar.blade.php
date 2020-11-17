@@ -7,13 +7,25 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <h1><a><span class="fa fa-area-chart"></span>Snowboard<br>Shop<span class="dashboard_text">Admin</span></a></h1>
+            <h1><a><span class="fa fa-area-chart"></span>Snowboard<br>Shop</a></h1>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="sidebar-menu">
+          <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="info">
+              <a href="#" class="d-block">
+                @if(Auth::check())
+                  {{request()->user()->nama}}
+                @else
+                  Silahkan Login
+                @endif
+              </a>
+            </div>
+          </div>
+          
               <li class="header">Menu</li>
               <li class="treeview">
-                <a href="homeadmin">
+                <a href="{{url('homeadmin')}}">
                 <i class="fa fa-home"></i> <span>Beranda</span>
                 </a>
               </li>
@@ -23,7 +35,7 @@
                 </a>
               </li>
                <li class="treeview">
-                <a href="{url('user')}}">
+                <a href="{{url('user')}}">
                 <i class="fa fa-user"></i> <span>User</span>
                 </a>
               </li>

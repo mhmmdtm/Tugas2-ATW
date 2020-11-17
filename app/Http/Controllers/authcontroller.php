@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Auth;
 
 class authcontroller extends Controller{
 
@@ -8,10 +9,15 @@ class authcontroller extends Controller{
 		return view("loginadmin");
 	}
 	function processLogin() {
-		dd(request()->all());
+		if(Auth::attempt(['email' => request('email'), 'password' => request('password')])){
+			return redirect('homeadmin')->with('success', 'Login berhasil');
+		}else{
+			return back()->with('danger', 'Login gagal, silahkan cek email dan password anda');
+		}
 	}
 	function logout() {
-
+		Auth::logout();
+		return redirect('loginadmin');
 	}
 	function registration() {
 

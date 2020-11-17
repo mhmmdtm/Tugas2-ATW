@@ -15,31 +15,31 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 <!-- Bootstrap Core CSS -->
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="{{url('assets/css/bootstrap.css')}}" rel='stylesheet' type='text/css' />
 
 <!-- Custom CSS -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="{{url('assets/css/style.css')}}" rel='stylesheet' type='text/css' />
 
 <!-- font-awesome icons CSS-->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="{{url('assets/css/font-awesome.css')}}" rel="stylesheet"> 
 <!-- //font-awesome icons CSS-->
 
  <!-- side nav css file -->
- <link href='css/SidebarNav.min.css' media='all' rel='stylesheet' type='text/css'/>
+ <link href="{{url('assets/css/SidebarNav.min.css')}}" media='all' rel='stylesheet' type='text/css'/>
  <!-- side nav css file -->
  
  <!-- js-->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
+<script src="{{url('assets/js/jquery-1.11.1.min.js')}}"></script>
+<script src="{{url('assets/js/modernizr.custom.js')}}"></script>
 
 <!--webfonts-->
 <link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 <!--//webfonts-->
  
 <!-- Metis Menu -->
-<script src="js/metisMenu.min.js"></script>
-<script src="js/custom.js"></script>
-<link href="css/custom.css" rel="stylesheet">
+<script src="{{url('assets/js/metisMenu.min.js')}}"></script>
+<script src="{{url('assets/js/custom.js')}}"></script>
+<link href="{{url('assets/css/custom.css')}}" rel="stylesheet">
 <!--//Metis Menu -->
 
 </head> 
@@ -47,23 +47,24 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <div class="main-content">
 		<div id="page-wrapper">
 			<div class="main-page login-page ">
-				<h2 class="title1">SnowboardShop</h2>
+				<h2 class="title1">Snowboardshop</h2>
 				<div class="widget-shadow">
 					<div class="login-body">
+						@include('template.utils.notif')
 						<form action="{{url('loginadmin')}}" method="post">
 							@csrf
-							<input type="email" class="user"  placeholder="Enter Your Email" name="email">
+							<input type="email" class="user"  placeholder="Email" name="email">
 							<input type="password" class="lock" placeholder="Password" name="password">
 							<div class="forgot-grid">
-								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Ingat saya</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Remember me</label>
 								<div class="forgot">
-									<a href="#">lupa kata sandi?</a>
+									<a href="#">lupa password?	</a>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
-							<a href="{{url('homeadmin')}}" class="btn btn-dark center"></i>Login</a>
+							<button type="submit" class="btn btn-primary btn-block">Sign In</button>
 							<div class="registration">
-								Anda belum punya akun?
+								Belum Punya Akun ?
 								<a class="" href="#">
 									Buat Akun
 								</a>
@@ -71,7 +72,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 						</form>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 		<!--footer-->
@@ -80,12 +80,12 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	</div>
 		
 	<!--scrolling js-->
-	<script src="js/jquery.nicescroll.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="{{url('assets/js/jquery.nicescroll.js')}}"></script>
+	<script src="{{url('assets/js/scripts.js')}}"></script>
 	<!--//scrolling js-->
 	
 	<!-- Bootstrap Core JavaScript -->
-   <script src="js/bootstrap.js"> </script>
+   <script src="{{url('assets/js/bootstrap.js')}}"> </script>
 	<!-- //Bootstrap Core JavaScript -->
    
 </body>

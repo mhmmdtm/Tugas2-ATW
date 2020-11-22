@@ -8,10 +8,11 @@
 				<div class="card">
 					<div class="card-header">
 						<h3>Data User</h3> <br>
+					<div class="panel-body widget-shadow">
 						<a href="{{url('user/create')}}" class="btn btn-dark float-right"><i class="fa fa-plus"></i> &nbsp Tambah Data</a>
 					</div>
 					<div class="card-body">
-						<table class="table">
+						<table class="table table-bordered">
 							<thead>
 								<th>No</th>
 								<th></th>
@@ -41,6 +42,7 @@
 								@endforeach
 							</tbody>
 						</table>
+					</div>
 					</div>
 				</div>
 			</div>

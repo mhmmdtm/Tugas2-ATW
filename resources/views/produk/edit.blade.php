@@ -10,7 +10,7 @@
 						Ubah Data Produk
 					</div>
 					<div class="card-body">
-						<form action="{{url('produk', $produk->kode)}}"  method="post">
+						<form action="{{url('produk', $produk->id)}}"  method="post">
 						@csrf
 						@method("put")
 						<div class="form-group">

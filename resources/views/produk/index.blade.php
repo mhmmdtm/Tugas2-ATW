@@ -7,11 +7,46 @@
 			<div class="col-md-12 mt-5">
 				<div class="card">
 					<div class="card-header">
-						<h3>Data Produk</h3> <br>
+						<h3>Filter</h3>
+					</div>
+					<div class="card-body">
+						<form action="{{url('produk/filter')}}" method="post">
+							@csrf
+							<div class="form-group">
+								<label for="" class="control-label">Nama</label>
+								<input type="text" class="form-control" name="nama" value="{{$nama ?? ""}}">
+							</div>
+							<div class="form-group">
+								<label for="" class="control-label">Stok</label>
+								<input type="text" class="form-control" name="stok" value="{{$stok ?? ""}}">
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="" class="control-label">Harga Min</label>
+										<input type="text" class="form-control" name="harga_min" value="{{$harga_min ?? ""}}">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="" class="control-label">Harga Max</label>
+										<input type="text" class="form-control" name="harga_max" value="{{$harga_max ?? ""}}">
+									</div>
+								</div>
+							</div>
+							
+							<button class="btn btn-dark float-right"><i class="fa fa-search"></i>Filter</button>
+						</form>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<br><h3>Data Produk</h3> <br>
+				<div class="panel-body widget-shadow">
 						<a href="{{url('produk/create')}}" class="btn btn-dark float-right"><i class="fa fa-plus"></i> &nbsp Tambah Data</a>
 					</div>
 					<div class="card-body">
-						<table class="table">
+						<table class="table table-bordered">
 							<thead>
 								<th>No</th>
 								<th></th>
@@ -26,13 +61,13 @@
 								<tr>
 									<td>{{$loop->iteration}}</td>
 									<td width="20px">
-										<a href="{{url('produk', $produk->kode)}}" class="btn btn-dark"><i class="fa fa-info"></i></a>
+										<a href="{{url('produk', $produk->id)}}" class="btn btn-dark"><i class="fa fa-info"></i></a>
 									</td>
 									<td width="20px">
-										<a href="{{url('produk', $produk->kode)}}/edit" class="btn btn-warning"><i class="fa fa-edit"></i></a>
+										<a href="{{url('produk', $produk->id)}}/edit" class="btn btn-warning"><i class="fa fa-edit"></i></a>
 									</td>
 									<td width="20px">
-										@include('template.utils.delete', ['url' => url('produk', $produk->kode)])
+										@include('template.utils.delete', ['url' => url('produk', $produk->id)])
 									</td>
 									<td>{{$produk->nama}}</td>
 									<td>{{$produk->harga}}</td>
@@ -42,6 +77,7 @@
 							</tbody>
 						</table>
 					</div>
+					</div>	
 				</div>
 			</div>
 		</div>

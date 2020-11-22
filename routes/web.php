@@ -42,21 +42,9 @@ Route::get('/register', function () {
 
 Route::get('homeadmin', [homecontroller::class, 'showHome']);
 
-Route::get('produk', [produkcontroller::class, 'index']);
-Route::get('produk/create', [produkcontroller::class, 'create']);
-Route::post('produk', [produkcontroller::class, 'store']);
-Route::get('produk/{produk}', [produkcontroller::class, 'show']);
-Route::get('produk/{produk}/edit', [produkcontroller::class, 'edit']);
-Route::put('produk/{produk}', [produkcontroller::class, 'update']);
-Route::delete('produk/{produk}', [produkcontroller::class, 'destroy']);
-
-Route::get('user', [usercontroller::class, 'index']);
-Route::get('user/create', [usercontroller::class, 'create']);
-Route::post('user', [usercontroller::class, 'store']);
-Route::get('user/{user}', [usercontroller::class, 'show']);
-Route::get('user/{user}/edit', [usercontroller::class, 'edit']);
-Route::put('user/{user}', [usercontroller::class, 'update']);
-Route::delete('user/{user}', [usercontroller::class, 'destroy']);
+Route::post('produk/filter', [produkcontroller::class, 'filter']);
+Route::resource('produk', produkcontroller::class);
+Route::resource('user', usercontroller::class);
 
 Route::get('loginadmin', [authcontroller::class, 'showLogin']);
 Route::post('loginadmin', [authcontroller::class, 'processLogin']);
